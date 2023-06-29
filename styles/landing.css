@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
 @font-face
 {
-    font-family: cascadia;
-    src: url("fonts/cascadia.ttf");
+    font-family: YuseiMagic;
+    src: url("fonts/YuseiMagic-Regular.ttf");
 }
 body
 {
@@ -25,7 +25,7 @@ body
 #title
 {
     color: rgba(255, 255, 255, 255);
-    font-family: 'VT323', 'monospace'; /* font family */
+    font-family: 'YuseiMagic', 'monospace'; /* font family */
     font-size: 60pt; /* size of the font */
     margin: -25px auto; /* vertical margin from top, horizontal centering (using auto) */
     width: max-content; /* Takes up full width of screen */
@@ -38,7 +38,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 #title_description
 {
     color: rgba(255, 255, 255, 255);
-    font-family: 'cascadia', 'monospace'; /*'Source Code Pro', monospace;  /* font family */
+    font-family: 'YuseiMagic', 'monospace'; /*'Source Code Pro', monospace;  /* font family */
     /*font-size: 30pt; /* size of the font */
     margin-top: 25px auto; /* vertical margin from top, horizontal centering (using auto) */
    /* width: max-content; /* Takes up full width of screen */
@@ -54,7 +54,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 #about_me
 {
     color: rgba(255, 255, 255, 255);
-    font-family: 'cascadia', 'monospace';
+    font-family: 'YuseiMagic', 'monospace';
     font-size: 1.8rem; 
     letter-spacing: -.05rem;
 }
@@ -99,7 +99,7 @@ ul li a
     --fill-color_outer: #ffffff;
     width: max-content; /* Takes up full width of screen */    
     display: block;
-    font-family: "cascadia", "monospace";
+    font-family: "YuseiMagic", "monospace";
     font-size: 3rem;
     font-weight: 100;
     text-decoration: none;
@@ -134,7 +134,7 @@ ul li a:hover
 /* Tooltip for quick links. */
 #tooltip 
 {
-    font-family: 'VT323', monospace;
+    font-family: 'YuseiMagic', monospace;
     font-size: 15pt;
     color: rgb(255, 255, 255);
     padding: 5px;
@@ -193,7 +193,7 @@ letter.initial
 
 
 .buttons {
-  font-family: "cascadia", "monospace";
+  font-family: "YuseiMagic", "monospace";
 
     display: -webkit-box;
     display: flex;
@@ -324,7 +324,7 @@ letter.initial
 #pt
 {
   color: rgba(255, 255, 255, 255);
-  font-family: 'cascadia', 'monospace';
+  font-family: 'YuseiMagic', 'monospace';
   font-size: 1.8rem; 
   letter-spacing: -.05rem;
   text-align: center;
@@ -385,11 +385,6 @@ letter.initial
   vertical-align: middle;
 }
 
-.proj-button-img:hover 
-{
-	/* transform: scale(1.3); */
-}
-
 #proj-button-section
 {
     /* border: 2px solid #0dfa2d; */
@@ -402,7 +397,7 @@ letter.initial
 {
   color: rgba(255, 255, 255, 255);
   text-align: center; 
-  font-family: 'VT323', monospace;
+  font-family: 'YuseiMagic', monospace;
   font-size: 3.5rem; 
   letter-spacing: -.05rem;
 }
@@ -423,7 +418,7 @@ letter.initial
   padding: 10px;
   text-align: left;
   box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.6);
-  font-family: 'cascadia', 'monospace';
+  font-family: 'YuseiMagic', 'monospace';
 
 }
 .chart .metric .metric-value {
