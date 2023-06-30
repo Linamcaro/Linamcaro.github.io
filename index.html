@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="programmer, coding, cv, unity, android, c#, kotlin, game developer, unity developer, mobile developer, english, spanish, french">
-    <meta name = "description" content= "mobile and unity developer, interested in kotlin, android, c#, unity development"
+    <meta name = "description" content= "mobile and unity developer, interested in kotlin, android, c#, unity development, game development"
+    
     <title>Lina Caro</title>
 
     <!-- CSS -->
@@ -11,9 +12,50 @@
     <link rel="stylesheet" type="text/css" href="styles/landing.css">
     <link rel="stylesheet" type="text/css" href="styles/career.css">
 
+     <!-- Project related css files --> 
+     <link rel="stylesheet" type="text/css" href="./styles/project_styles/Biofusion.css"/>
+
+     <!-- Scripts -->
+     <script src="scripts/quick_links.js"></script>
 
 </head>
-<body>
-    
+<body id="top">  
+    <div class="container" style="margin-top: 1%" align="center">   
+        <div id="title">Ori Lazar</div>            
+        <img class="landing_logo" src="./data/images/others/portrait.png" alt="Portrait">
+        <div id="quick_links">
+            <!-- <p id ="tooltip">Quick Links</p> -->
+            <a href="mailto:lina.mcaro@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            <a href="https://github.com/Linamcaro" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/linacaro/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://linamco.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a>
+        </div>
+        <hr>
+        <div id="about_me">Hello there!👋🏻 My name is Lina, an Android and Unity developer who feels fulfillment from the journey of creating
+             interactive experiences. Join me on an exciting journey of creativity and innovation as we explore the endless possibilities 
+             of technology. Let's create something extraordinary together! .</div>
+        <hr>
+
+        <section class="buttons">
+            <div class="button_container">
+                <div id="projects-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Projects</div> 
+                <div id="career-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Career</div> 
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts used in top body -->
+    <script src="scripts/text_animation.js"></script>
 </body>
+
+<div id="bottom">
+    <!-- Data_Labels -->
+    <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
+    <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
+    <script src="scripts/button_nav_selection.js"></script>
+    <script src="scripts/button_nav_proj.js"></script>
+    <script src="scripts/button_nav_career.js"></script>
+    <script src="scripts/button_nav_skills.js"></script>
+
+</div>
 </html>
